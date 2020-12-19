@@ -1,0 +1,27 @@
+{
+  "name": "tluxe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html awards.html product.html",
+    "build": "parcel build index.html awards.html product.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "@barba/prefetch": "^2.1.10",
+    "assets": "^3.0.1",
+    "gsap": "^3.5.1",
+    "imagesloaded": "^4.1.4",
+    "locomotive-scroll": "^4.0.6",
+    "swiper": "^6.4.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.30.0"
+  }
+}
